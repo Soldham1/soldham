@@ -1,0 +1,16 @@
+.nav {
+    padding: 1.5rem;
+}
+
+.nav-heading {
+    font-size: xx-large;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links--internal {
+    border-right: 1px solid grey;
+}
