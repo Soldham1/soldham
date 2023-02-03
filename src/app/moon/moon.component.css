@@ -1,0 +1,42 @@
+
+.moon-container {
+    height: 200vh;
+    z-index: 3;
+}
+
+.bg {
+    background:  
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgb(0, 0, 0)),
+      url("/assets/images/moon.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+}
+
+.moon-card {
+    background-color: black;
+    background:  
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+      url("/assets/images/blue-gradient.jpg");
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    padding: 3rem;
+    width: 450px;
+}
+
+.moon-card--design {
+    top: 120%;
+    left: 15%;
+}
+
+.moon-card--rapid {
+    top: 160%;
+    left: 60%;
+}
+
+.btn-moon {
+    border-radius: 25px;
+}

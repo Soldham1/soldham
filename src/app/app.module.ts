@@ -6,17 +6,19 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavComponent } from './nav/nav.component';
+import { MoonComponent } from './moon/moon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    NavComponent
+    NavComponent,
+    MoonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
